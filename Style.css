@@ -1,0 +1,21 @@
+body{
+    background: color #e6e6e6;;
+}
+
+h3{
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+img {
+    width: 50%;  
+    height: auto; 
+  }
+
+  .columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    list-style-position: inside; 
+  }
