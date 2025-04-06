@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Popular - W.</title>
 </head>
 <body>
-<h1>Prueba1</h1>
+    <header>
+        <h1>W.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new.html">New</a></li>
+                <li><a href="popular.html" class="active">Popular</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="popular-container">
+        <h2>Most Popular Stories</h2>
+        <div class="popular-grid">
+            <div class="popular-card featured">
+                <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800" alt="Featured Story">
+                <div class="card-content">
+                    <span class="views">50K Views</span>
+                    <h3>The Rise of Sustainable Technology</h3>
+                    <p>How green tech is shaping our future</p>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </div>
+            </div>
+            <div class="popular-list">
+                <div class="popular-item">
+                    <span class="rank">01</span>
+                    <div class="item-content">
+                        <h4>The Future of Remote Work</h4>
+                        <p>30K Views</p>
+                    </div>
+                </div>
+                <div class="popular-item">
+                    <span class="rank">02</span>
+                    <div class="item-content">
+                        <h4>Cryptocurrency Market Trends</h4>
+                        <p>25K Views</p>
+                    </div>
+                </div>
+                <div class="popular-item">
+                    <span class="rank">03</span>
+                    <div class="item-content">
+                        <h4>Space Tourism Takes Off</h4>
+                        <p>20K Views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

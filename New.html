@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <title>New - W.</title>
 </head>
 <body>
-    <h1>Prueba1</h1>
+    <header>
+        <h1>W.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new.html" class="active">New</a></li>
+                <li><a href="popular.html">Popular</a></li>
+                <li><a href="trending.html">Trending</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="new-container">
+        <h2>Latest Articles</h2>
+        <div class="articles-grid">
+            <article class="article-card">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800" alt="AI Article">
+                <div class="article-content">
+                    <h3>The Future of AI in Healthcare</h3>
+                    <p class="date">March 15, 2024</p>
+                    <p>Exploring how artificial intelligence is revolutionizing medical diagnosis and treatment.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="article-card">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800" alt="Space Article">
+                <div class="article-content">
+                    <h3>New Discoveries in Deep Space</h3>
+                    <p class="date">March 14, 2024</p>
+                    <p>Recent telescope observations reveal unprecedented cosmic phenomena.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="article-card">
+                <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800" alt="Tech Article">
+                <div class="article-content">
+                    <h3>Breakthrough in Quantum Computing</h3>
+                    <p class="date">March 13, 2024</p>
+                    <p>Scientists achieve major milestone in quantum computing research.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </div>
+    </main>
 </body>
 </html>
